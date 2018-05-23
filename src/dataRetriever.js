@@ -12,7 +12,7 @@ export default class DataRetreiver {
 
         this.inUpdate = true;
         var that = this;
-        var url = this.props.url + "/" + this.index;
+        var url = this.url + "/" + this.index;
 
         fetch(url).catch(function (e) {
             return;
